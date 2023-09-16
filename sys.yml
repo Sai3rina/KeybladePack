@@ -10,8 +10,16 @@ Halves damage taken in critical situations.'
   id: 1475
 - en: 'FormKey KH2'
   id: 1476
+- en: 'This keyblade will magicly fit its 
+
+surroundings, no one has ever seen his True Form'
+  id: 1477
 - en: 'Shapeshifter KH1'
   id: 1478
+- en: 'This Blade will change its form per World.
+
+No one had ever seen its true Shape'
+  id: 1479
 - en: 'El Mariachi'
   id: 15918
 - en: 'Sepia'
@@ -30,7 +38,7 @@ Halves damage taken in critical situations.'
   id: 15934
 - en: 'Devided Pumpkin'
   id: 15936
-- en: 'Sleeping Cat'
+- en: 'Light Saber'
   id: 15938
 - en: 'Dark Memmories'
   id: 15940
@@ -38,7 +46,7 @@ Halves damage taken in critical situations.'
   id: 15942
 - en: 'Fatality Crest'
   id: 15944
-- en: 'Bond on Flame'
+- en: 'Blazefire Saber'
   id: 15946
 - en: 'Valkyrias Ultima'
   id: 15950
