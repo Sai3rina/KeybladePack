@@ -1,70 +1,222 @@
-- en: 'Gold Wing'
-  id: 15928
-- en: 'God Arc'
-  id: 15948
 - en: 'Royal Gear'
   id: 1474
-- en: 'A blue Gear attached to the Keyblade.
+- en: '{:color #F0F00080}Kingdomkey{:reset} A blue Gear attached to the 
 
-Halves damage taken in critical situations.'
+Keyblade. Halves damage taken in critical 
+
+situations. {:color #F0F00080}A Sabrina Costum{:reset}'
   id: 1475
 - en: 'FormKey KH2'
   id: 1476
-- en: 'This keyblade will magicly fit its 
+- en: '{:color #F0F00080}Oathkeeper{:reset} This keyblade will magicly fit 
 
-surroundings, no one has ever seen his True Form'
+its surroundings, no one has ever seen 
+
+his True Form.{:color #F0F00080}Lua script is a B...{:reset}'
   id: 1477
 - en: 'Shapeshifter KH1'
   id: 1478
-- en: 'This Blade will change its form per World.
+- en: '{:color #F0F00080}Oblivion{:reset} This Blade will change its form 
 
-No one had ever seen its true Shape'
+per World. No one had ever seen 
+
+its true Shape.{:color #F0F00080}Lua script is a B...{:reset}'
   id: 1479
-- en: 'El Mariachi'
-  id: 15918
-- en: 'Void Gear'
-  id: 15920
-- en: 'Lightsaber Green'
-  id: 15922
-- en: 'Elucidator'
-  id: 15924
-- en: 'Dark Repulser'
-  id: 15926
-- en: 'Valkyria'
-  id: 15930
-- en: 'Lollipop Chainblade'
-  id: 15932
-- en: 'Destinys Embrace'
-  id: 15934
-- en: 'Darkgnaw'
-  id: 15936
-- en: 'Lightsaber Red'
-  id: 15938
-- en: 'Deformed MC'
-  id: 15940
-- en: 'Wooden Keyblade'
-  id: 15942
-- en: 'Earthshaker'
-  id: 15944
-- en: 'Blazefire Saber'
-  id: 15946
-- en: 'NoName YX'
-  id: 15950
-- en: 'NoName OX'
-  id: 20023
-- en: 'Lost Memory'
-  id: 20021
-- en: 'Sakura'
-  id: 15868
 - en: 'Master Sword'
   id: 15866
+- en: '{:color #F0F00080}Star Seeker{:reset} Increases maximum combo by 1
+
+when in midair. 
+
+So you can play Link while you Jump.'
+  id: 15867
+- en: 'Sakura'
+  id: 15868
+- en: '{:color #F0F00080}Hidden Dragon{:reset} Restores MP relative to the 
+
+amount of damage taken. 
+
+{:color #F0F00080}A Sabrina edited just minmal Costum{:reset}'
+  id: 15869
+- en: 'El Mariachi'
+  id: 15918
+- en: '{:color #F0F00080}HerosCrest{:reset} Increases the damage of the 
+
+finishiner in the air relative to the number
+
+of hits in the combo, like music in the Air.'
+  id: 15919
+- en: 'Void Gear'
+  id: 15920
+- en: '{:color #F0F00080}Monochrome{:reset} Increases the effect of 
+
+restoration items used on the field 
+
+by {:color #F0F00080}50%{:reset}.'
+  id: 15921
+- en: 'Lightsaber Green'
+  id: 15922
+- en: '{:color #F0F00080}Follow the Wind{:reset} Forged for a true Jedi. 
+
+This Lightsabers Core draws in nearby Orbs.
+
+May Your Heart be with you ?'
+  id: 15923
+- en: 'Elucidator'
+  id: 15924
+- en: '{:color #F0F00080}Circle of Life{:reset} S.A.O. Bossdrop,
+
+increasing MP restoration speed by {:color #F0F00080}25%{:reset} 
+
+after MP is consumed.'
+  id: 15925
+- en: 'Dark Repulser'
+  id: 15926
+- en: '{:color #F0F00080}Photon Debugger{:reset} Increases damage done 
+
+with thunderbased attacks by {:color #F0F00080}20%{:reset} do to its 
+
+Wealders Speed.Made of Dragon poop'
+  id: 15927
+- en: 'Gold Wing'
+  id: 15928
+- en: '{:color #F0F00080}Gull Wing{:reset} Increases damage done with 
+
+thunder based attacks by {:color #F0F00080}20%{:reset}.
+
+{:color #F0F00080}Look at it in Halloweentown{:reset}'
+  id: 15929
+- en: 'Valkyria'
+  id: 15930
+- en: '{:color #F0F00080}Rumbling Rose{:reset} Is Sharp as Hell, allowing 
+
+finishiner moves to be unleashed 
+
+successively.{:color #F0F00080}A Sabrina Costum <3{:reset}'
+  id: 15931
+- en: 'Lollipop Chainblade'
+  id: 15932
+- en: '{:color #F0F00080}Guardian Soul{:reset} Has a hard Chain, increasing 
+
+the amount of damage dealt from Reaction 
+
+Commands by {:color #F0F00080}50%{:reset} <3.'
+  id: 15933
+- en: 'Destinys Embrace'
+  id: 15934
+- en: '{:color #F0F00080}Wishing Lamp{:reset} Wishes come true by 
+
+increasing the drop rate of munny, and HP 
+
+and MP Orbs cuz Kairi is a ...'
+  id: 15935
+- en: 'Darkgnaw'
+  id: 15936
+- en: '{:color #F0F00080}Dcv Pumpkin{:reset} The greater number of combos 
+
+landed, the more damage is dealt, leading to 
+
+a strong finishing move!'
+  id: 15937
+- en: 'Deformed MC'
+  id: 15940
+- en: '{:color #F0F00080}Sweet Memories{:reset} Although it does not 
+
+enhance attack strength, it increases the 
+
+drop rate of drive orbs in place of munny.'
+  id: 15941
+- en: 'Wooden Keyblade'
+  id: 15942
+- en: '{:color #F0F00080}Mystery Abyss{:reset} Enhances magic to increase 
+
+damage dealt with blizzard-based 
+
+attacks by {:color #F0F00080}20%{:reset}.'
+  id: 15943
+- en: 'Lightsaber Red'
+  id: 15938
+- en: '{:color #F0F00080}Sleeping Lion{:reset} Sith Lightsaber with 
+
+strength and magic, increasing maximum 
+
+ground-based combos by 1.'
+  id: 15939
+- en: 'Blazefire Saber'
+  id: 15946
+- en: '{:color #F0F00080}Bond of Flame{:reset} Enhances magic to increase 
+
+damage dealt with fire-based attacks by 
+
+{:color #F0F00080}20%{:reset}.'
+  id: 15947
+- en: 'Lost Memory'
+  id: 20021
+- en: '{:color #F0F00080}Two Become One{:reset} A weapon of great strength
+
+and magic that has a special effect.
+
+You will not beleiveit but its a 50% Chance.'
+  id: 20022
+- en: 'Earthshaker'
+  id: 15944
+- en: '{:color #F0F00080}Fatal Crest{:reset}{:width 95} Increases strength by {:color #F0F00080}2{:reset} {:width 95}during MP 
+
+Charge and enables combos to continue endlessly.
+
+{:width 90}The combo finishing move becomes unavailable.'
+  id: 15945
+- en: 'God Arc'
+  id: 15948
+- en: '{:color #F0F00080}Fenrir{:reset} Has great range and strength, 
+
+but maximum ground and midair combos 
+
+are decreased by 1.'
+  id: 15949
+- en: 'NoName YX'
+  id: 15950
+- en: '{:color #F0F00080}Ultima Weapon{:reset}{:width 95} The Keyblade above all others.
+
+Increases MP restoration rate by {:color #F0F00080}75%{:reset}
+
+once all MP has been consumed.'
+  id: 15951
+- en: 'NoName OX'
+  id: 20023
+- en: '{:color #F0F00080}Winners Proof{:reset} A weapon of extraordinary 
+
+magic and great strength. Disables the 
+
+gaining of experience just like Xehanort...'
+  id: 20024
 - en: 'Buster Sword'
   id: 1480
+- en: '{:color #F0F00080}Detection Saber{:reset} 
+
+The longest Sword available. Dont lie!
+
+What did u had to do to  get it from Cloud?'
+  id: 1481
 - en: 'Chaos Ripper'
   id: 1482
+- en: '{:color #F0F00080}Omega Weapon{:reset} Hey Edgelord has called, 
+
+he wants his Keyblade back, imidetly. 
+
+Otherwise hes telling your MOM.'
+  id: 1483
 - en: 'Wayward Wind'
   id: 1484
+- en: '{:color #F0F00080}Pureblood{:reset} Ventus main Keyblade but 
+
+its haunted until he wakes up again.'
+  id: 1485
 - en: 'Royal Gear Red'
   id: 1508
+- en: '{:color #F0F00080}Kingdomkey D{:reset} A Red Gear as Equivalent to 
 
+Royal Gear.Filled with Power and Upgrades 
 
+to Protect the Roayle Gates'
+  id: 1509
