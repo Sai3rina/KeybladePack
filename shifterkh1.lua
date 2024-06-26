@@ -1,27 +1,50 @@
 function _OnInit()
-    if (GAME_ID == 0xF266B00B or GAME_ID == 0xFAF99301) and ENGINE_TYPE == "ENGINE" then --PCSX2
-        if ENGINE_VERSION < 3.0 then
-            print('LuaEngine is Outdated. Things might not work properly.')
-        end
-        OnPC = false
-        Now = 0x032BAE0 --Current Location
-        Obj0 = 0x1C94100 --00objentry.bin
-    elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
-        if ENGINE_VERSION < 5.0 then
-            ConsolePrint('LuaBackend is Outdated. Things might not work properly.',2)
-        end
-        OnPC = true
-        Now = 0x0714DB8 - 0x56454E
-        Obj0 = 0x2A22B90 - 0x56450E
-    end
+GameVersion = 0
+print('Weaponpack')
+end
+
+function GetVersion() --Define anchor addresses
+if (GAME_ID == 0xF266B00B or GAME_ID == 0xFAF99301) and ENGINE_TYPE == "ENGINE" then --PCSX2
+	OnPC = false
+	GameVersion = 1
+	print('not offical supportet')
+	Now = 0x032BAE0 --Current Location
+	Obj0Pointer = 0x1D5BA10 --00objentry.bin Pointer Address
+	Obj0 = ReadInt(Obj0Pointer)
+elseif GAME_ID == 0x431219CC and ENGINE_TYPE == 'BACKEND' then --PC
+	OnPC = true
+	if ReadString(0x09A92F0,4) == 'KH2J' then --EGS
+		GameVersion = 2
+		print('Epic Version')
+		Now = 0x0716DF8
+		Obj0Pointer = 0x2A24A70
+		Obj0 = ReadLong(Obj0Pointer)
+	elseif ReadString(0x09A9830,4) == 'KH2J' then --Steam Global
+		GameVersion = 3
+		print('Steam Global Version')
+		Now = 0x0717008
+		Obj0Pointer = 0x2A24FB0
+		Obj0 = ReadLong(Obj0Pointer)
+	elseif ReadString(0x09A8830,4) == 'KH2J' then --Steam JP
+		GameVersion = 4
+		print('GoA Steam JP Version')
+		Now = 0x0716008
+		Obj0Pointer = 0x2A23FB0
+		Obj0 = ReadLong(Obj0Pointer)
+	end
+end
 end
 
 function _OnFrame()
-    if true then --Define current values for common addresses
-        World  = ReadByte(Now+0x00)
-        Room   = ReadByte(Now+0x01)
-        Place  = ReadShort(Now+0x00)
-    end
+if GameVersion == 0 then --Get anchor addresses
+	GetVersion()
+	return
+end
+if true then --Define current values for common addresses
+	World  = ReadByte(Now+0x00)
+	Room   = ReadByte(Now+0x01)
+	Place  = ReadShort(Now+0x00)
+	end
     CostumeSwap()
 end
 
