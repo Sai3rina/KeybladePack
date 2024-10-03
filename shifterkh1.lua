@@ -50,30 +50,30 @@ end
 
 function CostumeSwap()
     if World == 0x07 then --Agrabah
-        WriteString(Obj0+0x1BD0,'W_EX020_Aladin\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Aladin\0',OnPC)
     elseif World == 0x10 then --Port Royal
-        WriteString(Obj0+0x1BD0,'W_EX020_Jack\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Jack\0',OnPC)
     elseif World == 0x02 then --Twilight Town
-        WriteString(Obj0+0x1BD0,'W_EX020_Twilight\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Twilight\0',OnPC)
     elseif World == 0x04 then --Hollow bastion
-        WriteString(Obj0+0x1BD0,'W_EX020_Hollow\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Hollow\0',OnPC)
     elseif World == 0x05 then --Beasts Castle
-        WriteString(Obj0+0x1BD0,'W_EX020_Beast\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Beast\0',OnPC)
     elseif World == 0x06 then --olymp
-        WriteString(Obj0+0x1BD0,'W_EX020_Herc\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Herc\0',OnPC)
     elseif World == 0x08 then --Mulan
-        WriteString(Obj0+0x1BD0,'W_EX020_Mulan\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Mulan\0',OnPC)
     elseif World == 0x09 then --100acer
-        WriteString(Obj0+0x1BD0,'W_EX020_puh\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_puh\0',OnPC)
     elseif World == 0x0a then --Pride Lands
-        WriteString(Obj0+0x1BD0,'W_EX020_Lion\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Lion\0',OnPC)
     elseif World == 0x0b then --Atlantica
-        WriteString(Obj0+0x1BD0,'W_EX020_atlantica\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_atlantica\0',OnPC)
     elseif World == 0x0c then --Disney Castle
-        WriteString(Obj0+0x1BD0,'W_EX020_Mickey\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Mickey\0',OnPC)
     elseif World == 0x12 then --Final world
-        WriteString(Obj0+0x1BD0,'W_EX020_Final\0')
+        WriteString(Obj0+0x1BD0,'W_EX020_Final\0',OnPC)
     else --Revert costume changes
-        WriteString(Obj0+0x1BD0,'W_EX010_20\0')
+        WriteString(Obj0+0x1BD0,'W_EX010_20\0',OnPC)
     end
 end
